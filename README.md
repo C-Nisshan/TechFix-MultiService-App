@@ -35,8 +35,8 @@ TechFix Multi-Service App is a full-stack project that consists of:
    Update-Database
    ```
 4. **Start the backends:**
-   - **TechFix-backend: Runs on http://localhost:5000**
-   - **Supplier-backend: Runs on http://localhost:5001**
+   - ***TechFix-backend: Runs on http://localhost:5000***
+   - ***Supplier-backend: Runs on http://localhost:5001***
 
 ### Frontend Setup
 1. **Navigate to the frontend directories and install dependencies:**
