@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React build files
+build/
+
+# ASP.NET Core dependencies
+bin/
+obj/
+**/*.user
+**/*.suo
+
+# Logs
+*.log
+logs/
+
+# Database
+*.mdf
+*.ldf
+*.sql
+
+# Environment files
+.env
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio-specific files
+.vs/

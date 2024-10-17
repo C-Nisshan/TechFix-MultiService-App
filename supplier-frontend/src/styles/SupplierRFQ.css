@@ -1,0 +1,159 @@
+/* Base container styling */
+.supplier-rfq-container {
+  padding: 2rem;
+  background-color: #f0f4f8;
+}
+
+/* Card styling */
+.supplier-rfq-card {
+  background-color: #fff;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  padding: 20px;
+}
+
+.supplier-rfq-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Title */
+.supplier-rfq-card .card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Card Text */
+.supplier-rfq-card .card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+/* List styling */
+.rfq-items-list {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rfq-items-list li {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Status badge */
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status-badge.pending {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.status-badge.accepted {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.status-badge.rejected {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Button styling */
+.respond-btn, .action-buttons .btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.respond-btn {
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+
+.respond-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.action-buttons .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.action-buttons .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* Modal styling */
+.modal-header {
+  background-color: #0069d9;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-header .modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+/* Form styling */
+.form-label {
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #495057;
+}
+
+.form-control:focus {
+  border-color: #0069d9;
+  box-shadow: 0 0 8px rgba(0, 105, 217, 0.25);
+}
+
+/* Button in modal form */
+.modal-footer .btn-primary {
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  .supplier-rfq-container {
+    padding: 1rem;
+  }
+
+  .supplier-rfq-card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+

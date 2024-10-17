@@ -1,0 +1,100 @@
+/* Background and Container */
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f0f4ff, #e4e9f7);
+  padding: 20px;
+}
+
+.login-form {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 50vh !important;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Heading */
+.login-form h2 {
+  color: #333333;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* Form Styling */
+.login-form .form-control {
+  border: 2px solid #dfe3e6;
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.login-form .form-control:focus {
+  border-color: #508ff4;
+  box-shadow: 0 0 8px rgba(80, 143, 244, 0.3);
+}
+
+/* Button Styling */
+.login-form .btn {
+  background-color: #508ff4;
+  border: none;
+  color: #ffffff;
+  padding: 12px 35px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-form .btn:hover {
+  background-color: #3d7be0;
+}
+
+/* Forgot Password Link */
+.forgot_pass {
+  text-align: right;
+}
+
+.forgot_pass a {
+  font-size: 14px;
+  color: #508ff4;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.forgot_pass a:hover {
+  color: #3d7be0;
+}
+
+/* Register Link */
+.login-form p {
+  margin-top: 20px;
+}
+
+.login-form p a {
+  color: #508ff4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.login-form p a:hover {
+  color: #3d7be0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 10px;
+  }
+
+  .login-form {
+    padding: 30px 20px;
+    max-width: 350px;
+  }
+}
