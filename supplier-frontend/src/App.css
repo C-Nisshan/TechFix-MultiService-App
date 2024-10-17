@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* custom-toast.css */
+.Toastify__toast-container {
+  top: 0; /* Position at the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  position: fixed; /* Fixes the position */
+}
+
+.Toastify__toast {
+  margin-top: 20px; /* Adjust the margin as needed */
+  width: 300px; /* Adjust width if needed */
+  text-align: center; /* Center text */
+}
+
+

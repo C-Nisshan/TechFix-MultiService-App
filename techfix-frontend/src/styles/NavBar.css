@@ -1,0 +1,76 @@
+/* Custom NavBar Styles */
+.navbar-custom {
+    background-color: #007bff !important; /* Blue background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 10px 20px; /* Padding for better spacing */
+}
+
+.navbar-logo {
+    color: #fff; /* White text color for logo */
+    font-size: 1.5rem; /* Slightly larger logo text */
+    font-weight: bold; /* Make it stand out */
+    letter-spacing: 1px; /* Slight letter spacing for a modern feel */
+}
+
+.navbar-logo:hover {
+    color: #000000; /* Light blue hover effect for logo */
+    text-decoration: none; /* No underline on hover */
+}
+
+.nav-link {
+    color: #fff; /* White color for nav links */
+    margin-right: 20px; /* Space between links */
+    margin-top:.1rem;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+}
+
+.nav-link:hover {
+    color: #fff; /* Light blue hover color for links */
+    text-decoration: underline; /* Underline on hover */
+    font-weight: 500;
+}
+
+.btn-outline-danger, .btn-outline-success {
+    border: 2px solid #fff; /* White border for buttons */
+    color: #fff; /* White text color */
+    border-radius: 30px; /* Rounded button corners */
+    font-weight: bold; /* Bold text for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.btn-outline-danger:hover {
+    background-color: #fff; /* White background on hover */
+    color: #007bff; /* Red text color for Logout hover */
+    border-color: #007bff; /* Red border on hover */
+}
+
+.btn-outline-success:hover {
+    background-color: #fff; /* White background on hover */
+    color: #28a745; /* Green text color for Login hover */
+    border-color: #28a745; /* Green border on hover */
+}
+
+.navbar-toggler {
+    border-color: #80d4ff; /* Light blue border color for toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Custom icon color */
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #007bff; /* Consistent background color */
+        padding: 10px 0; /* Padding for mobile view */
+    }
+
+    .nav-link {
+        margin-right: 0; /* Remove margin in mobile view */
+        padding: 10px; /* Add padding to links */
+    }
+
+    .d-flex {
+        justify-content: center; /* Center the button in mobile view */
+    }
+}

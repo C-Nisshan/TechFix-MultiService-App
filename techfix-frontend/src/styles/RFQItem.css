@@ -1,0 +1,117 @@
+.rfq-item-container {
+    padding: 2rem;
+    background-color: #f1f3f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.rfq-item-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: none;
+}
+
+.rfq-item-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.rfq-item-card .card-body {
+    padding: 20px;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.rfq-item-card .card-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+
+.rfq-item-card .card-text {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.rfq-item-card ul {
+    padding-left: 20px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.25em 0.75em;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: white;
+}
+
+.status-badge.approved {
+    background-color: #28a745;
+}
+
+.status-badge.pending {
+    background-color: #ffc107;
+}
+
+.status-badge.rejected {
+    background-color: #dc3545;
+}
+
+.status-badge.unknown {
+    background-color: #6c757d;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.action-btn {
+    width: 48%;
+}
+
+.action-btn i {
+    margin-right: 5px;
+}
+
+.add-rfq-item-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.add-rfq-item-button {
+    background-color: #007bff !important;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+}
+
+.add-rfq-item-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 91, 187, 0.25);
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+    padding: 12px;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
